@@ -379,7 +379,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (heroTitle) {
         document.getElementById('hero-title-input').value = heroTitle;
     } else {
-        document.getElementById('hero-title-input').value = 'Electronics & Communication Engineer';
+        document.getElementById('hero-title-input').value = 'Electronics Engineer';
     }
 
     if (heroTagline) {
@@ -474,7 +474,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Default paragraphs if none in localStorage
     const defaultParagraphs = [
-        { heading: "Professional Summary", text: "I am a dedicated Electronics & Communication Engineer with a strong foundation in communication systems, digital electronics, and embedded systems. My passion lies in developing innovative solutions that bridge the gap between hardware and software." },
+        { heading: "Professional Summary", text: "I am a dedicated Electronics Engineer with a strong foundation in communication systems, digital electronics, and embedded systems. My passion lies in developing innovative solutions that bridge the gap between hardware and software." },
         { heading: "", text: "With hands-on experience in various programming languages and industry-standard tools, I strive to create efficient and scalable electronic systems. I am constantly learning and adapting to new technologies to stay ahead in this rapidly evolving field." }
     ];
 
@@ -685,7 +685,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const defaultObjective = {
         heading: "Career Objective",
         icon: "fas fa-bullseye",
-        text: "To leverage my technical expertise in electronics and communication engineering to contribute to innovative projects in a dynamic organization, while continuously enhancing my skills and knowledge in emerging technologies."
+        text: "To apply my knowledge and practical experience in electronics engineering, embedded systems, and electrical technologies to contribute to innovative engineering projects. I aim to develop reliable and efficient solutions while continuously improving my technical skills and staying updated with emerging technologies in the field."
     };
 
     let aboutObjectives = [];
@@ -898,16 +898,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // Default mock data
     const defaultEducation = [
         {
-            level: "Schooling", course: "S.L.C.", year: "2012-2014",
-            percentage: "68%", university: ""
+            level: "Schooling", course: "S.L.C.", year: "2002-2015",
+            percentage: "82%", School: "Shree Nawaratna Higher Secondary School"
         },
         {
-            level: "Diploma", course: "Diploma in E.C.E.", year: "2014-2017",
-            percentage: "65%", university: "HSBTE"
+            level: "Diploma", course: "Diploma in E&E.", year: "2016-2019",
+            percentage: "64.5%", university: "Korea Nepal Institute of Technology (KNIT)"
         },
         {
-            level: "B.Tech", course: "Electronics & Communication Engineering", year: "2017-2021",
-            percentage: "6.61/10", university: "Jawarlal Nehru Technological University Hyderabad(JNTUH)"
+            level: "Bachelor Engineering", course: "Electronics Engineering", year: "2024-2028",
+            percentage: "", university: "Metropolia University of Applied Sciences"
         }
     ];
 
